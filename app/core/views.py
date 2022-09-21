@@ -1,6 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-# Create your views here.
-def index(request):
-    return HttpResponse("Howzit Broer!!! - I am going to modify this script.")
+def example_view(request):
+    return (request, 'core/example.html')
