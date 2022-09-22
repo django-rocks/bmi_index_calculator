@@ -6,3 +6,5 @@ def example_view(request):
     return render(request, 'core/example.html',context=my_var)
 # def index(request):
 #    return HttpResponse("Howzit")
+def feedback_review(request):
+    return render(request, 'core/feedback.html')
